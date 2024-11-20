@@ -1,0 +1,22 @@
+Task 1: Django ORM and API Endpoint
+
+Objective: Test Django API development skills.
+
+Prompt: Write a Django model for a Task object with the following fields:
+
+id: AutoField (Primary Key)
+title: CharField (max_length=255)
+description: TextField (optional)
+is_completed: BooleanField (default=False)
+created_at: DateTimeField (auto_now_add=True)
+Next, create an API endpoint /api/tasks/ to:
+
+List all tasks.
+Create a new task.
+Include filtering functionality to return only completed tasks when the query parameter ?completed=true is passed.
+
+
+Questions:
+
+How would you secure this endpoint for authenticated users only?
+How would you handle large datasets for this endpoint?
