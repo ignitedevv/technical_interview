@@ -1,0 +1,9 @@
+Task 2: React State Management
+
+Objective: Test React state management and component design.
+
+Prompt: Create a React component that displays a to-do list and allows users to:
+
+Add a new task.
+Mark a task as completed.
+Filter the list by "All," "Completed," or "Pending."
