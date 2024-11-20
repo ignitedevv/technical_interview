@@ -1,0 +1,6 @@
+Prompt: You’re working on a Django project, and the following error occurs during migration:
+
+django.db.utils.OperationalError: table "task" already exists
+Question:
+
+How would you resolve this issue without deleting the database or data?
