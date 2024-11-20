@@ -1,0 +1,18 @@
+
+Scenario:
+A junior developer on your team has written the following Django view to handle a POST request. However, they did not clean or validate the incoming data. The data directly interacts with the database, which could lead to potential vulnerabilities or issues.
+
+Junior Developer's Code:
+
+from django.http import JsonResponse
+from .models import Task
+
+def create_task(request):
+    if request.method == "POST":
+        data = request.POST
+        task = Task.objects.create(
+            title=data["title"],
+            description=data.get("description", ""),
+            is_completed=data.get("is_completed", False),
+        )
+        return JsonResponse({"id": task.id, "message": "Task created successfully!"})
