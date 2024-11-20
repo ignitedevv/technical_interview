@@ -1,0 +1,13 @@
+Task 3: React Native Feature Implementation
+
+Objective: Test React Native skills, especially in building user interfaces and handling platform differences.
+
+Prompt: Build a React Native component for a simple "Task Timer":
+
+Display a list of tasks.
+Each task has a "Start Timer" button.
+Show a timer that counts down from 25 minutes when started.
+Questions:
+
+How would you handle state for multiple timers?
+How would you ensure the timer works reliably across app backgrounding?
