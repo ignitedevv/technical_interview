@@ -16,7 +16,4 @@ Create a new task.
 Include filtering functionality to return only completed tasks when the query parameter ?completed=true is passed.
 
 
-Questions:
 
-How would you secure this endpoint for authenticated users only?
-How would you handle large datasets for this endpoint?
