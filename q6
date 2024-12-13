@@ -1,0 +1,4 @@
+Set up a simple local notification system using react-native-push-notification.
+
+Display a button labeled "Notify Me."
+When pressed, schedule a notification to appear 5 seconds later with the title "Reminder" and a custom message.
