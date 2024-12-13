@@ -1,0 +1,5 @@
+Implement a React Native app with two screens using react-navigation. The app should have:
+
+A "Home" screen with a button to navigate to a "Details" screen.
+A "Details" screen that displays a counter, with buttons to increment and decrement the counter.
+The counter value should persist when navigating back to the Home screen.
